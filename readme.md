@@ -15,16 +15,16 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 `$ git diff` - show changes between commits, commit and working tree, etc.
 
 #### Repo History
-`$ git log` - __Fill Me Out__
+`$ git log` - General History of Previous Commits for Repo
 
-`$ git log --oneline --decorate --color --graph --all` - __Fill Me Out__
+`$ git log --oneline --decorate --color --graph --all` - Short, Sweet, and Colorful History of Git Repos
 
-`$ git log -p [filename]` __Fill Me Out__
+`$ git log -p [filename]` - Very Detailed History of Past Commits for Current Repos
 
 #### Stage files to commit
-`$ git add <filename>` - __Fill Me Out__
+`$ git add <filename>` - Moves the specified file to the staging area. 
 
-`$ git add -A` - __Fill Me Out__
+`$ git add -A` -Moves all the files that have been modified to the staging area. 
 
 #### Commit changes in staged files
 `$ git commit -m "<commit message>"` - saves staged file changes. Record changes to the repo.
