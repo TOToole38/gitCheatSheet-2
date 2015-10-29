@@ -22,19 +22,19 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 `$ git log -p [filename]` - Very Detailed History of Past Commits for Current Repos
 
 #### Stage files to commit
-`$ git add <filename>` - Moves the specified file to the staging area. 
+`$ git add <filename>` - Moves the specified file to the staging area.
 
-`$ git add -A` -Moves all the files that have been modified to the staging area. 
+`$ git add -A` -Moves all the files that have been modified to the staging area.
 
 #### Commit changes in staged files
 `$ git commit -m "<commit message>"` - saves staged file changes. Record changes to the repo.
 
 #### Branching
-`$ git branch <branch name>` - __Fill Me Out__
+`$ git branch <branch name>` - creates a specific branch
 
-`$ git branch` - __Fill Me Out__
+`$ git branch` - git-branch - List, create, or delete branches
 
-`$ git checkout <branch name>` - __Fill Me Out__
+`$ git checkout <branch name>` - moves you to that branch to "check it out" and work on it.
 
 #### Merging
 
